@@ -8,7 +8,7 @@
     "build-foo": "webpack --mode production --entry ./foo/src/index.js --output-path ./foo/dist",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development --open"
+    "start": "webpack serve --mode development --open --port 3000"
   },
   "author": "saul corona",
   "license": "MIT",
@@ -17,8 +17,10 @@
     "@babel/preset-env": "^7.12.16",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
     "html-loader": "^1.3.2",
     "html-webpack-plugin": "^5.1.0",
+    "image-webpack-loader": "^7.0.1",
     "mini-css-extract-plugin": "^1.3.6",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
